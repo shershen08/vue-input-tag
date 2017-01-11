@@ -79,7 +79,8 @@
           :on-change='newTag',
           :tags='tags',
           :placeholder='placeholder',
-          :read-only='readOnly'
+          :read-only='readOnly',
+          :validate='\'url\''
         )
 
         code {{ getPreviewHTML() }}
